@@ -18,6 +18,7 @@
 - (void)addTabBarButtonWithItem:(UITabBarItem *)item{
     CQTabBarBtn *tabBarBtn = [[CQTabBarBtn alloc] init];
     [self addSubview:tabBarBtn];
+    tabBarBtn.item = item;
     [tabBarBtn addTarget:self action:@selector(tabBarBtnClick:) forControlEvents:UIControlEventTouchDown];
     if (self.subviews.count == 1) {
         [self tabBarBtnClick:tabBarBtn];

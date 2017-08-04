@@ -25,9 +25,9 @@
 
 
 - (void)setUpChildControllers{
-    [self setupAllChildViewNavigationController:nil Controllers:[ViewController1 class] title:@"首页" normalImageName:nil selectedImageName:nil];
-    [self setupAllChildViewNavigationController:nil Controllers:[ViewController2 class] title:@"首页1" normalImageName:nil selectedImageName:nil];
-    [self setupAllChildViewNavigationController:nil Controllers:[ViewController3 class] title:@"首页2" normalImageName:nil selectedImageName:nil];
+    [self setupAllChildViewNavigationController:nil Controllers:[ViewController1 class] title:@"首页" normalImageName:@"tabbar_home _normal" selectedImageName:@"tabbar_home _selected"];
+    [self setupAllChildViewNavigationController:nil Controllers:[ViewController2 class] title:@"首页1" normalImageName:@"tabbar_indent_normal" selectedImageName:@"tabbar_indent_selected"];
+    [self setupAllChildViewNavigationController:nil Controllers:[ViewController3 class] title:@"首页2" normalImageName:@"tabbar_mine_normal" selectedImageName:@"tabbar_mine_selected"];
 }
 
 

@@ -11,15 +11,17 @@
 @interface CQTabBarController : UITabBarController
 
 // 未选中时的字体大小(默认11号)
-@property (nonatomic, assign) CGFloat normalFount;
+@property (nonatomic, assign) CGFloat titleNormalFount;
 // 选中时的字体大小(默认11号)
-@property (nonatomic, assign) CGFloat selectedFount;
+@property (nonatomic, assign) CGFloat titleSelectedFount;
 // 未选中时的字体颜色(默认灰色)
-@property (nonatomic, assign) CGFloat normalColor;
+@property (nonatomic, assign) CGFloat titleNormalColor;
 // 选中时的字体颜色(默认蓝色)
-@property (nonatomic, assign) CGFloat selectedColor;
+@property (nonatomic, assign) CGFloat titleSelectedColor;
 // 提醒数字的背景色(默认红色)
-@property (nonatomic, weak) UIColor *color;
+@property (nonatomic, strong) UIColor *badgeColor;
+// 提醒数字的背景图片
+@property (nonatomic, weak) UIImage *badgeimage;
 
 /**
  *  初始化一个子控制器

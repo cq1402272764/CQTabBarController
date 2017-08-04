@@ -29,7 +29,7 @@
     if (_baseTabBar == nil) {
         _baseTabBar = [[CQTabBar alloc] init];
         _baseTabBar.frame = self.tabBar.bounds;
-        [self.view addSubview:_baseTabBar];
+        [self.tabBar addSubview:_baseTabBar];
     }
     return _baseTabBar;
 }

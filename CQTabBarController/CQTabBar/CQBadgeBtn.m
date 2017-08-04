@@ -15,7 +15,7 @@
     if (self) {
         self.hidden = YES;
         self.userInteractionEnabled = NO;
-        [self setBackgroundImage:[UIImage imageNamed:@"main_badge"] forState:UIControlStateNormal];
+//        [self setBackgroundImage:[UIImage imageNamed:@"main_badge"] forState:UIControlStateNormal];
         self.titleLabel.font = [UIFont systemFontOfSize:11];
     }
     return self;
@@ -28,7 +28,6 @@
         self.hidden = NO;
         // 设置文字
         [self setTitle:badgeValue forState:UIControlStateNormal];
-        
         // 设置frame
         CGRect frame = self.frame;
         CGFloat badgeH = self.currentBackgroundImage.size.height;

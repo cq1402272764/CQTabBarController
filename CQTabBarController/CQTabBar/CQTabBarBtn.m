@@ -38,14 +38,12 @@
     return self;
 }
 
-// TabBarBtn图片的frame
 - (CGRect)imageRectForContentRect:(CGRect)contentRect{
     CGFloat imageW = contentRect.size.width;
     CGFloat imageH = contentRect.size.height * ZFTabBarButtonImageRatio;
     return CGRectMake(0, 3, imageW, imageH-3);
 }
 
-// TabBarBtn文字的frame
 - (CGRect)titleRectForContentRect:(CGRect)contentRect{
     CGFloat titleY = contentRect.size.height * ZFTabBarButtonImageRatio;
     CGFloat titleW = contentRect.size.width;
