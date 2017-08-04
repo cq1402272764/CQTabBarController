@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		422C4BEB1F21F37200B0B375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4BEA1F21F37200B0B375 /* main.m */; };
+		422C4BEE1F21F37200B0B375 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4BED1F21F37200B0B375 /* AppDelegate.m */; };
+		422C4BF11F21F37200B0B375 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4BF01F21F37200B0B375 /* ViewController.m */; };
+		422C4BF41F21F37200B0B375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422C4BF21F21F37200B0B375 /* Main.storyboard */; };
+		422C4BF61F21F37200B0B375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422C4BF51F21F37200B0B375 /* Assets.xcassets */; };
+		422C4BF91F21F37200B0B375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422C4BF71F21F37200B0B375 /* LaunchScreen.storyboard */; };
+		422C4C041F21F37200B0B375 /* CQTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4C031F21F37200B0B375 /* CQTabBarControllerTests.m */; };
+		422C4C0F1F21F37200B0B375 /* CQTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4C0E1F21F37200B0B375 /* CQTabBarControllerUITests.m */; };
+		422C4C1F1F21F43700B0B375 /* CQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4C1E1F21F43700B0B375 /* CQTabBar.m */; };
+		422C4C221F21F4A100B0B375 /* CQTabBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4C211F21F4A100B0B375 /* CQTabBarBtn.m */; };
+		422C4C251F21F64A00B0B375 /* CQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422C4C241F21F64A00B0B375 /* CQTabBarController.m */; };
+		4257D4B61F33177200173003 /* CQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257D4B51F33177200173003 /* CQNavigationController.m */; };
+		4257D4B91F33249D00173003 /* CQBadgeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257D4B81F33249D00173003 /* CQBadgeBtn.m */; };
+		4257D4BC1F3407BA00173003 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257D4BB1F3407BA00173003 /* MainTabBarController.m */; };
+		4257D4BF1F3408A800173003 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257D4BE1F3408A800173003 /* ViewController1.m */; };
+		4257D4C21F3408B200173003 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257D4C11F3408B200173003 /* ViewController2.m */; };
+		4257D4C51F3408BC00173003 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257D4C41F3408BC00173003 /* ViewController3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		422C4C001F21F37200B0B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422C4BDE1F21F37200B0B375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422C4BE51F21F37200B0B375;
+			remoteInfo = CQTabBarController;
+		};
+		422C4C0B1F21F37200B0B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 422C4BDE1F21F37200B0B375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 422C4BE51F21F37200B0B375;
+			remoteInfo = CQTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		422C4BE61F21F37200B0B375 /* CQTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422C4BEA1F21F37200B0B375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		422C4BEC1F21F37200B0B375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		422C4BED1F21F37200B0B375 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		422C4BEF1F21F37200B0B375 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		422C4BF01F21F37200B0B375 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		422C4BF31F21F37200B0B375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		422C4BF51F21F37200B0B375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422C4BF81F21F37200B0B375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		422C4BFA1F21F37200B0B375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422C4BFF1F21F37200B0B375 /* CQTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		422C4C031F21F37200B0B375 /* CQTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarControllerTests.m; sourceTree = "<group>"; };
+		422C4C051F21F37200B0B375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422C4C0A1F21F37200B0B375 /* CQTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		422C4C0E1F21F37200B0B375 /* CQTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQTabBarControllerUITests.m; sourceTree = "<group>"; };
+		422C4C101F21F37200B0B375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422C4C1D1F21F43700B0B375 /* CQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQTabBar.h; sourceTree = "<group>"; };
+		422C4C1E1F21F43700B0B375 /* CQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQTabBar.m; sourceTree = "<group>"; };
+		422C4C201F21F4A100B0B375 /* CQTabBarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQTabBarBtn.h; sourceTree = "<group>"; };
+		422C4C211F21F4A100B0B375 /* CQTabBarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQTabBarBtn.m; sourceTree = "<group>"; };
+		422C4C231F21F64A00B0B375 /* CQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQTabBarController.h; sourceTree = "<group>"; };
+		422C4C241F21F64A00B0B375 /* CQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQTabBarController.m; sourceTree = "<group>"; };
+		4257D4B41F33177200173003 /* CQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQNavigationController.h; sourceTree = "<group>"; };
+		4257D4B51F33177200173003 /* CQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQNavigationController.m; sourceTree = "<group>"; };
+		4257D4B71F33249D00173003 /* CQBadgeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQBadgeBtn.h; sourceTree = "<group>"; };
+		4257D4B81F33249D00173003 /* CQBadgeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQBadgeBtn.m; sourceTree = "<group>"; };
+		4257D4BA1F3407BA00173003 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		4257D4BB1F3407BA00173003 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		4257D4BD1F3408A800173003 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		4257D4BE1F3408A800173003 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		4257D4C01F3408B200173003 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4257D4C11F3408B200173003 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		4257D4C31F3408BC00173003 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		4257D4C41F3408BC00173003 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422C4BE31F21F37200B0B375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422C4BFC1F21F37200B0B375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422C4C071F21F37200B0B375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422C4BDD1F21F37200B0B375 = {
+			isa = PBXGroup;
+			children = (
+				422C4BE81F21F37200B0B375 /* CQTabBarController */,
+				422C4C021F21F37200B0B375 /* CQTabBarControllerTests */,
+				422C4C0D1F21F37200B0B375 /* CQTabBarControllerUITests */,
+				422C4BE71F21F37200B0B375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		422C4BE71F21F37200B0B375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422C4BE61F21F37200B0B375 /* CQTabBarController.app */,
+				422C4BFF1F21F37200B0B375 /* CQTabBarControllerTests.xctest */,
+				422C4C0A1F21F37200B0B375 /* CQTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422C4BE81F21F37200B0B375 /* CQTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4257D4BA1F3407BA00173003 /* MainTabBarController.h */,
+				4257D4BB1F3407BA00173003 /* MainTabBarController.m */,
+				422C4C1C1F21F41100B0B375 /* CQTabBar */,
+				422C4BEC1F21F37200B0B375 /* AppDelegate.h */,
+				422C4BED1F21F37200B0B375 /* AppDelegate.m */,
+				422C4BEF1F21F37200B0B375 /* ViewController.h */,
+				422C4BF01F21F37200B0B375 /* ViewController.m */,
+				422C4BF21F21F37200B0B375 /* Main.storyboard */,
+				422C4BF51F21F37200B0B375 /* Assets.xcassets */,
+				422C4BF71F21F37200B0B375 /* LaunchScreen.storyboard */,
+				422C4BFA1F21F37200B0B375 /* Info.plist */,
+				422C4BE91F21F37200B0B375 /* Supporting Files */,
+				4257D4BD1F3408A800173003 /* ViewController1.h */,
+				4257D4BE1F3408A800173003 /* ViewController1.m */,
+				4257D4C01F3408B200173003 /* ViewController2.h */,
+				4257D4C11F3408B200173003 /* ViewController2.m */,
+				4257D4C31F3408BC00173003 /* ViewController3.h */,
+				4257D4C41F3408BC00173003 /* ViewController3.m */,
+			);
+			path = CQTabBarController;
+			sourceTree = "<group>";
+		};
+		422C4BE91F21F37200B0B375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				422C4BEA1F21F37200B0B375 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		422C4C021F21F37200B0B375 /* CQTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				422C4C031F21F37200B0B375 /* CQTabBarControllerTests.m */,
+				422C4C051F21F37200B0B375 /* Info.plist */,
+			);
+			path = CQTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		422C4C0D1F21F37200B0B375 /* CQTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				422C4C0E1F21F37200B0B375 /* CQTabBarControllerUITests.m */,
+				422C4C101F21F37200B0B375 /* Info.plist */,
+			);
+			path = CQTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		422C4C1C1F21F41100B0B375 /* CQTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				422C4C1D1F21F43700B0B375 /* CQTabBar.h */,
+				422C4C1E1F21F43700B0B375 /* CQTabBar.m */,
+				4257D4B71F33249D00173003 /* CQBadgeBtn.h */,
+				4257D4B81F33249D00173003 /* CQBadgeBtn.m */,
+				422C4C201F21F4A100B0B375 /* CQTabBarBtn.h */,
+				422C4C211F21F4A100B0B375 /* CQTabBarBtn.m */,
+				422C4C231F21F64A00B0B375 /* CQTabBarController.h */,
+				422C4C241F21F64A00B0B375 /* CQTabBarController.m */,
+				4257D4B41F33177200173003 /* CQNavigationController.h */,
+				4257D4B51F33177200173003 /* CQNavigationController.m */,
+			);
+			path = CQTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422C4BE51F21F37200B0B375 /* CQTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422C4C131F21F37200B0B375 /* Build configuration list for PBXNativeTarget "CQTabBarController" */;
+			buildPhases = (
+				422C4BE21F21F37200B0B375 /* Sources */,
+				422C4BE31F21F37200B0B375 /* Frameworks */,
+				422C4BE41F21F37200B0B375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CQTabBarController;
+			productName = CQTabBarController;
+			productReference = 422C4BE61F21F37200B0B375 /* CQTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		422C4BFE1F21F37200B0B375 /* CQTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422C4C161F21F37200B0B375 /* Build configuration list for PBXNativeTarget "CQTabBarControllerTests" */;
+			buildPhases = (
+				422C4BFB1F21F37200B0B375 /* Sources */,
+				422C4BFC1F21F37200B0B375 /* Frameworks */,
+				422C4BFD1F21F37200B0B375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422C4C011F21F37200B0B375 /* PBXTargetDependency */,
+			);
+			name = CQTabBarControllerTests;
+			productName = CQTabBarControllerTests;
+			productReference = 422C4BFF1F21F37200B0B375 /* CQTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		422C4C091F21F37200B0B375 /* CQTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422C4C191F21F37200B0B375 /* Build configuration list for PBXNativeTarget "CQTabBarControllerUITests" */;
+			buildPhases = (
+				422C4C061F21F37200B0B375 /* Sources */,
+				422C4C071F21F37200B0B375 /* Frameworks */,
+				422C4C081F21F37200B0B375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				422C4C0C1F21F37200B0B375 /* PBXTargetDependency */,
+			);
+			name = CQTabBarControllerUITests;
+			productName = CQTabBarControllerUITests;
+			productReference = 422C4C0A1F21F37200B0B375 /* CQTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422C4BDE1F21F37200B0B375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CQ;
+				TargetAttributes = {
+					422C4BE51F21F37200B0B375 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					422C4BFE1F21F37200B0B375 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 422C4BE51F21F37200B0B375;
+					};
+					422C4C091F21F37200B0B375 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 422C4BE51F21F37200B0B375;
+					};
+				};
+			};
+			buildConfigurationList = 422C4BE11F21F37200B0B375 /* Build configuration list for PBXProject "CQTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 422C4BDD1F21F37200B0B375;
+			productRefGroup = 422C4BE71F21F37200B0B375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422C4BE51F21F37200B0B375 /* CQTabBarController */,
+				422C4BFE1F21F37200B0B375 /* CQTabBarControllerTests */,
+				422C4C091F21F37200B0B375 /* CQTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422C4BE41F21F37200B0B375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422C4BF91F21F37200B0B375 /* LaunchScreen.storyboard in Resources */,
+				422C4BF61F21F37200B0B375 /* Assets.xcassets in Resources */,
+				422C4BF41F21F37200B0B375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422C4BFD1F21F37200B0B375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422C4C081F21F37200B0B375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422C4BE21F21F37200B0B375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4257D4BF1F3408A800173003 /* ViewController1.m in Sources */,
+				422C4BF11F21F37200B0B375 /* ViewController.m in Sources */,
+				4257D4C51F3408BC00173003 /* ViewController3.m in Sources */,
+				422C4C251F21F64A00B0B375 /* CQTabBarController.m in Sources */,
+				4257D4C21F3408B200173003 /* ViewController2.m in Sources */,
+				4257D4BC1F3407BA00173003 /* MainTabBarController.m in Sources */,
+				4257D4B91F33249D00173003 /* CQBadgeBtn.m in Sources */,
+				4257D4B61F33177200173003 /* CQNavigationController.m in Sources */,
+				422C4C221F21F4A100B0B375 /* CQTabBarBtn.m in Sources */,
+				422C4C1F1F21F43700B0B375 /* CQTabBar.m in Sources */,
+				422C4BEE1F21F37200B0B375 /* AppDelegate.m in Sources */,
+				422C4BEB1F21F37200B0B375 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422C4BFB1F21F37200B0B375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422C4C041F21F37200B0B375 /* CQTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		422C4C061F21F37200B0B375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422C4C0F1F21F37200B0B375 /* CQTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		422C4C011F21F37200B0B375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422C4BE51F21F37200B0B375 /* CQTabBarController */;
+			targetProxy = 422C4C001F21F37200B0B375 /* PBXContainerItemProxy */;
+		};
+		422C4C0C1F21F37200B0B375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 422C4BE51F21F37200B0B375 /* CQTabBarController */;
+			targetProxy = 422C4C0B1F21F37200B0B375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		422C4BF21F21F37200B0B375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422C4BF31F21F37200B0B375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		422C4BF71F21F37200B0B375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422C4BF81F21F37200B0B375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422C4C111F21F37200B0B375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		422C4C121F21F37200B0B375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422C4C141F21F37200B0B375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CQTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yto.YTongExpres.CQTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		422C4C151F21F37200B0B375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CQTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yto.YTongExpres.CQTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		422C4C171F21F37200B0B375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CQTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yto.YTongExpres.CQTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CQTabBarController.app/CQTabBarController";
+			};
+			name = Debug;
+		};
+		422C4C181F21F37200B0B375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CQTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yto.YTongExpres.CQTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CQTabBarController.app/CQTabBarController";
+			};
+			name = Release;
+		};
+		422C4C1A1F21F37200B0B375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CQTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yto.YTongExpres.CQTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CQTabBarController;
+			};
+			name = Debug;
+		};
+		422C4C1B1F21F37200B0B375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CQTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yto.YTongExpres.CQTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CQTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422C4BE11F21F37200B0B375 /* Build configuration list for PBXProject "CQTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422C4C111F21F37200B0B375 /* Debug */,
+				422C4C121F21F37200B0B375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422C4C131F21F37200B0B375 /* Build configuration list for PBXNativeTarget "CQTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422C4C141F21F37200B0B375 /* Debug */,
+				422C4C151F21F37200B0B375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422C4C161F21F37200B0B375 /* Build configuration list for PBXNativeTarget "CQTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422C4C171F21F37200B0B375 /* Debug */,
+				422C4C181F21F37200B0B375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422C4C191F21F37200B0B375 /* Build configuration list for PBXNativeTarget "CQTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422C4C1A1F21F37200B0B375 /* Debug */,
+				422C4C1B1F21F37200B0B375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422C4BDE1F21F37200B0B375 /* Project object */;
+}
